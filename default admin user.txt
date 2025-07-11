@@ -1,0 +1,4 @@
+default admin user
+
+email: thomasmore@thomasmore.be
+pass: rootroot
