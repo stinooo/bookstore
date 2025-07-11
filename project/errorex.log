@@ -1,0 +1,9 @@
+Uncaught exception: 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com, role='admin', active=1 WHERE id=9' at line 1Uncaught exception: 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com, role='admin', active=1 WHERE id=9' at line 1Uncaught exception: 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' author='james', show_on_web=1, Featured=1 WHERE id=3' at line 1Uncaught exception: 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' author='james', show_on_web=1, Featured=1 WHERE id=3' at line 1Uncaught exception: 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' author='james', show_on_web=1, Featured=1 WHERE id=3' at line 1Uncaught exception: 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' show_on_web=1, sale=5, Featured=1 WHERE id=3' at line 1Uncaught exception: 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' show_on_web=0, Featured=1 WHERE id=3' at line 1Uncaught exception: 
+You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' show_on_web=1, sale=5, Featured=1 WHERE id=3' at line 1

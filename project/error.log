@@ -1,0 +1,8 @@
+Uncaught exception: Genre name is empty
+Uncaught exception: Genre name is empty
+2024-12-26 07:28:17[ 2 ]: Undefined variable $stmt in file C:\xampp\htdocs\labo\project\functions\Make_genre.php on line 32
+2024-12-26 11:31:10[ 2 ]: Undefined variable $total in file C:\xampp\htdocs\labo\project\checkout.php on line 95
+2024-12-26 11:31:14[ 2 ]: Undefined variable $total in file C:\xampp\htdocs\labo\project\checkout.php on line 95
+2024-12-26 12:00:54[ 2 ]: Undefined array key "aantal" in file C:\xampp\htdocs\labo\project\order.php on line 106
+2024-12-26 12:01:32[ 2 ]: Undefined variable $total in file C:\xampp\htdocs\labo\project\order.php on line 106
+2024-12-26 15:57:22[ 2 ]: Undefined array key "username" in file C:\xampp\htdocs\labo\project\functions\update_user.php on line 13

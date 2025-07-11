@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+
+header {
+    height: 50px;
+    background-color: #009087;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+.user-list-container {
+    width: 100%;
+    height: auto;      
+    padding: 10px ;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.users {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.role{
+    align-self: right;
+    margin-bottom: 1rem;
+}
+.buttons{
+    display: flex;
+    justify-content: right;
+    margin-top: 1rem;
+}
+
+.users
+{
+    padding-left: auto ;
+    padding-right:auto ;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+footer {
+    background-color: #009087;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: auto;
+}
