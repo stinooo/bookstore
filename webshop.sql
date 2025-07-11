@@ -80,17 +80,17 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`id`, `user_id`, `total`, `made@`, `name`, `phone`, `address`, `city`, `country`, `postal_code`, `payment_method`) VALUES
-(7, 9, 266, '2024-12-09 02:21:39', 'stijn kindt', 499797227, 'Mijlstraat 209', 'Duffel', 'Belgium', 2570, 'card'),
-(8, 9, 104, '2024-12-22 23:21:13', '2121', 0, 'stij', 'pod', 'belguim', 2570, 'paypal'),
-(9, 9, 216, '2024-12-25 06:58:47', 'stijn kindt', 812381239, 'janlaan 203', 'Lier', 'Belguim', 25000, 'paypal'),
-(10, 25, 112, '2024-12-26 03:49:27', 'pookie', 123456789, 'Mijlstraat 209', 'Duffel', 'Belguim', 1203, 'paypal'),
+(7, 9, 266, '2024-12-09 02:21:39', ' ', , ' ', '', 'Belgium', 2570, 'card'),
+(8, 9, 104, '2024-12-22 23:21:13', '2121', 0, '', 'pod', 'belguim', 2570, 'paypal'),
+(9, 9, 216, '2024-12-25 06:58:47', '', 812381239, 'janlaan 203', 'Lier', 'Belguim', 25000, 'paypal'),
+(10, 25, 112, '2024-12-26 03:49:27', 'pookie', 123456789, ' ', 'Duffel', 'Belguim', 1203, 'paypal'),
 (11, 26, 152, '2024-12-26 05:32:05', 'harryPottr ', 1255679, 'joepistraat 29', 'harry', 'sweden', 12312, 'paypal'),
 (12, 9, 18, '2024-12-26 05:36:06', 'done ', 12455646, 'janny 123', 'lier', 'belgum', 2234, 'paypal'),
 (13, 9, 18, '2024-12-26 05:40:18', 'jan', 1234567800, 'liersesteenweg', 'city', 'france', 123453, 'bank'),
-(14, 9, 12, '2024-12-26 05:44:50', 'stijn', 123456780, 'mijlstraat', 'Lier', 'France', 24243, 'card'),
+(14, 9, 12, '2024-12-26 05:44:50', '', 123456780, '', 'Lier', 'France', 24243, 'card'),
 (15, 9, 12, '2024-12-26 05:51:16', 'try', 21312413, 'liersesteenweg', 'Lier', 'Belguim', 123123, 'card'),
-(16, 9, 12, '2024-12-26 05:52:58', 'stijn kindt', 12312312, 'Mijlstraat 209', 'Duffel', 'France', 24243, 'paypal'),
-(17, 27, 183, '2024-12-26 10:18:58', 'pookie', 123456789, 'mijlstraat', 'duffel', 'pookieland', 12345, 'bank'),
+(16, 9, 12, '2024-12-26 05:52:58', ' ', 12312312, ' ', '', 'France', 24243, 'paypal'),
+(17, 27, 183, '2024-12-26 10:18:58', 'pookie', 123456789, '', 'duffel', 'pookieland', 12345, 'bank'),
 (18, 27, 69.984, '2024-12-26 10:49:00', 'thomas', 1234567890, 'achtbaan 23', 'evergem', 'germany', 1231231, 'paypal');
 
 -- --------------------------------------------------------
@@ -252,23 +252,23 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `pass`, `role`, `active`) VALUES
-(9, 'pookie', 'stijn.stijn@gmail.com', '$argon2i$v=19$m=65536,t=4,p=1$NURPMWRtSnE5MlJ2L3N4cQ$p0QpP13GAo9nasGlkbbSUUkto43GgErZM/jc9NPAArA', 'admin', '1'),
-(10, 'pog', 'account.irate244@passmail.net', '$argon2i$v=19$m=65536,t=4,p=1$UFkvUE9nZVJXbjFiaEUyaA$uTbYZKdRr40E7uYGeI6S2Zlyy8TybtxoB0ckSmJRG6c', 'admin', ''),
-(11, 'pogooo', 'stijnkindt3@gmail.com', '$argon2i$v=19$m=65536,t=4,p=1$Q1NHaGJmLmtScFpjQmFWNA$6thNtn3qbvePjz/PJ18wRa8KFPneVkUtgPUOXFsJR8I', 'user', '0'),
+(9, 'pookie', '.@.com', '$argon2i$v=19$m=65536,t=4,p=1$NURPMWRtSnE5MlJ2L3N4cQ$p0QpP13GAo9nasGlkbbSUUkto43GgErZM/jc9NPAArA', 'admin', '1'),
+(10, 'pog', '.@passmail.net', '$argon2i$v=19$m=65536,t=4,p=1$UFkvUE9nZVJXbjFiaEUyaA$uTbYZKdRr40E7uYGeI6S2Zlyy8TybtxoB0ckSmJRG6c', 'admin', ''),
+(11, 'pogooo', '@gmail.com', '$argon2i$v=19$m=65536,t=4,p=1$Q1NHaGJmLmtScFpjQmFWNA$6thNtn3qbvePjz/PJ18wRa8KFPneVkUtgPUOXFsJR8I', 'user', '0'),
 (13, 'stinoo1', 'jan.wouter', '$argon2i$v=19$m=65536,t=4,p=1$VTZBaGZjNEtVZXlvS3l3cA$yK1OMZzDK2kmdjRahVXaUkc5oCs9GzzaJt4P5Cfy+Jk', 'admin', '1'),
-(14, 'aj', 'stijn.kindt@outlook.com', '$argon2i$v=19$m=65536,t=4,p=1$b1hwa2JteFlsY1ouSm1oaA$Ac1xVfjNy1zuM+YtiqTLyD8gH4O1QJAPM3f+aT/pp0A', 'user', '1'),
+(14, 'aj', '.@outlook.com', '$argon2i$v=19$m=65536,t=4,p=1$b1hwa2JteFlsY1ouSm1oaA$Ac1xVfjNy1zuM+YtiqTLyD8gH4O1QJAPM3f+aT/pp0A', 'user', '1'),
 (15, 'aùsod', 'amdb@sldh.com', '$argon2i$v=19$m=65536,t=4,p=1$OGJTVGpEM0xrbjlidVFDNg$ikXeHiBKA94YNBu9pMIE3aGYlpLR1W++/Mmc2mVb69o', 'user', '1'),
 (16, 'ze:kfnn', 'laekhdvd@msrrofb.com', '$argon2i$v=19$m=65536,t=4,p=1$VzNOZjlyam96Q242YnVZRw$5nX1Fzqw4fO9aez7xYmd+xbjTC5F4hoMQlB6uDVXJyw', 'user', '1'),
-(17, 'jan', 'jan.wouters@gmail.com', '$argon2i$v=19$m=65536,t=4,p=1$TWFIbkRzd3hHWGFpWE5XcA$CKzUq0wQLCzDbxwWQxdfWANH7fnVbxe0fzdsWVUlndA', 'user', '1'),
+(17, 'jan', '.@gmail.com', '$argon2i$v=19$m=65536,t=4,p=1$TWFIbkRzd3hHWGFpWE5XcA$CKzUq0wQLCzDbxwWQxdfWANH7fnVbxe0fzdsWVUlndA', 'user', '1'),
 (18, 'papa', 'robe.rubens@outlook.com', '$argon2i$v=19$m=65536,t=4,p=1$Y0lKRUV5T3FoZG9idkt1aQ$mEPmuER8pGSWNzd6iZ1XShe/pmhFu6kvQu0zc0lKiPc', 'user', '1'),
 (19, 'sam', 'sam.klap@gmail.com', '$argon2i$v=19$m=65536,t=4,p=1$N0poOXdNN1pnREtrZFg1eQ$qmfvnJCOUC7N7c9+viEPh+8d+oNKa14N9Z+40J3INYI', 'user', '1'),
 (20, 'stinoo23', 'pog@pog.pog', '$argon2i$v=19$m=65536,t=4,p=1$SFFaNFM5dXdJb1B1RDBHRA$BeZK5ui3nu/jrmVAb4erZSi9CTw6A9QPY3NTk3DB1qc', 'user', '0'),
 (21, 'pino', 'gabber@gmail.com', '$argon2i$v=19$m=65536,t=4,p=1$eGdxMkZGZmVDYXBuQWlZYw$RwvCkt5W8bFtpG6oP6H/mJHzAYx9+A27NhgtEt0+YH8', 'user', '1'),
 (22, 'pookie129', 'pookie.po@gmaim.com', '$argon2i$v=19$m=65536,t=4,p=1$R3J5NW1jS0pNZ3pYZk5PNA$1BNX/A3rXG0iBcEoXwyyiBVbwF+m6mWOUcigIcY29aA', 'user', '1'),
-(23, 'pookie23', 'stijn.pookie@gmail.com', '$argon2i$v=19$m=65536,t=4,p=1$b3QuREcyU2F6NUlvRlhVaA$DFpb2Kku8aw5a4E3FrPUWlG2DqN1zz4fJ9rZK/J2kqg', 'user', '1'),
+(23, 'pookie23', '.pookie@gmail.com', '$argon2i$v=19$m=65536,t=4,p=1$b3QuREcyU2F6NUlvRlhVaA$DFpb2Kku8aw5a4E3FrPUWlG2DqN1zz4fJ9rZK/J2kqg', 'user', '1'),
 (24, 'zmeib', '123@gmail.com', '$argon2i$v=19$m=65536,t=4,p=1$dlQvVzhZdWQ4SWNYODlZYw$gt0TZoGmjx134SiPsJlQQMQQsfvHar0QK2zVc7ydryc', 'user', '1'),
 (25, 'slùvjb', 'pookie@gmail.com', '$argon2i$v=19$m=65536,t=4,p=1$Vm1YdXJ3SUdyTUh0UnZtUQ$YhyD52rHhy2e0IMrHdMtdG77vCIrsZtw1OrjDgJ+JF0', 'user', '1'),
-(26, 'stinks209', 'stijn.wouters@gmail.com', '$argon2i$v=19$m=65536,t=4,p=1$VkZ2blZNdEJEZGxWOFlUWQ$lek7mryHl8h1YqhuHBzNUv0wfEN2hVfQmGiGYYFVXUE', 'admin', '1'),
+(26, 'stinks209', '.@gmail.com', '$argon2i$v=19$m=65536,t=4,p=1$VkZ2blZNdEJEZGxWOFlUWQ$lek7mryHl8h1YqhuHBzNUv0wfEN2hVfQmGiGYYFVXUE', 'admin', '1'),
 (27, 'skibidy', 'skibidi@gmail.com', '$argon2i$v=19$m=65536,t=4,p=1$SDdJLzhkZ3pRWVJ2NGVYNQ$dPUY1OOshtNN9Rvab8Ae8viarTK4+Vus2rwZ5o5/54w', 'user', '1');
 
 --
